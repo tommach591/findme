@@ -1,0 +1,82 @@
+.App {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  color: rgb(225, 225, 225);
+}
+
+button {
+  font-size: 32px;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 10px;
+
+  text-align: center;
+}
+
+select {
+  font-size: 32px;
+}
+
+.Title {
+  font-size: 52px;
+  font-weight: bold;
+
+  margin-top: 1rem;
+}
+
+.Controls {
+  width: 100%;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.SelectGame {
+  margin: 1rem;
+}
+
+.Reset {
+  margin: 1rem;
+}
+
+.Table {
+  width: 100%;
+  font-size: 40px;
+  line-height: 36px;
+}
+
+.Row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 10px;
+
+  margin: 1rem;
+
+  padding: 1rem;
+}
+
+.Mark {
+  position: absolute;
+  width: 4rem;
+  right: 0rem;
+  top: 0rem;
+}
+
+.Description {
+  width: 60%;
+}
+
+.Answer {
+  width: 30%;
+  margin-left: auto;
+}
+
+.Check {
+  margin: 1rem;
+}
