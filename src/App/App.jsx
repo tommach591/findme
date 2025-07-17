@@ -50,7 +50,6 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem("yourGame", JSON.stringify(yourGame));
-    console.log(yourGame);
   }, [yourGame]);
 
   useEffect(() => {
